@@ -1,0 +1,376 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+body{
+    max-width:100%;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:5px; 
+    background-color: #101010e2; 
+    position:relative;
+    
+
+}
+header ul{
+    list-style: none;
+    display: flex; 
+}
+header a{
+    text-decoration: none;
+    font-size: 19px;
+    color: #fff;
+    transform: scale(.2);
+
+}
+header a:hover{
+    text-decoration: none;
+    transition: .1s;
+    color: rgb(200, 192, 192);
+    border-bottom:1px solid rgb(238, 227, 227);
+
+}
+header ul li{
+    margin-left:20px;
+}
+.logo{
+    font-size:30px;
+    color: #fff;
+}
+.hero{
+    background-image:url(../img/pexels-cottonbro-studio-3944405.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    height: 500px; 
+}
+h1{
+    color: #fff;
+    font-size:60px;
+}
+.sub-titulo{
+    color: #fff;
+    font-size:30px;
+}
+.galeria{
+    margin-top: 5%;
+}
+.galeria-titulo{
+    margin-left:16%;
+    font-size: 28px;
+    border-left:4px solid black;
+}
+.flex{
+    margin-top: 5%;
+    display: flex;
+    justify-content:center;
+    align-items: center;   
+}
+.flex img{
+    width: 300px;
+    margin-left:20px;
+    border-radius:10px;    
+}
+.galeria-titulo{
+    margin-left:16%;
+    font-size: 28px;
+    border-left:4px solid black;
+}
+.flex{
+    margin-top: 5%;
+    display: flex;
+    justify-content:center;
+    align-items: center;   
+}
+.flex video{
+    width: 350px;
+    margin-left:20px;
+    border-radius:10px;    
+}
+
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px; 
+    margin-top:2%;
+    
+}
+.titulos{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px; 
+    color: #fff;
+}
+.titulos:hover{
+    text-align: center;
+;
+    padding: 10px; 
+    color: #3f3d3d;
+}
+.cont{
+    background: #2e2d2d;
+    height: 300px;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-left: 35%;
+   
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: #fff;
+    
+}
+
+legend{
+    text-align: center;
+    font-size: 38px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+label{
+    margin-top: 7%;
+}
+::placeholder{
+    text-align: center;
+    
+}
+input{
+    background: #2e2d2d;
+    border: none; 
+}
+input:hover{
+    background:#fff;
+    border: none; 
+}
+.btn{
+    display: flex;
+    background-color: #3f3d3d;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    text-decoration:none;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 7%;
+    max-width: 200px;
+
+}
+.btn:hover{
+    background-color: #fff;
+    color: #3f3d3d;
+    transition:1s;
+}
+
+
+.hero-sobre{
+    background-image:url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    height: 500px;
+}
+.h2-sobre{
+    color: #fff;
+    font-size:80px;
+}
+.sp-sobre{
+    color: #fff;
+}
+
+.ribeiro{
+    display: flex;
+    justify-content:space-between;
+    padding:5px; 
+    margin-top:5%;
+    margin-right:5%;
+    margin-left:5%;
+    align-items: center;
+}
+.ribeiro:last-child{
+    margin-right: 3%;
+}
+
+.ribeirop{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.ribeirop:last-child{
+    margin-right: 3%;
+}
+.ribeiros{
+    display: flex;
+    justify-content:space-between;
+    padding:5px; 
+    margin-top:5%;
+    margin-right:5%;
+    margin-left:5%;
+    align-items: center;
+}
+.ribeiros:last-child{
+    margin-right: 3%;
+}
+.p-dicas{
+    text-align: justify;
+    margin-right:8%; 
+}
+.patrocinio{
+    display: flex;
+    justify-content:space-between;
+    padding:5px; 
+    margin-top:5%;
+    margin-right:5%;
+    margin-left:5%;
+    align-items: center;
+}
+.autor{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    
+}
+.at{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    text-align: center;
+}
+.descrive{
+    width:400px;
+}
+.p-descr{
+    text-align: justify;
+}
+.at img{
+    width:200px;
+}
+.p-dicass{
+    text-align: justify;
+    margin-right:3%; 
+   
+}
+.p-dicass:hover{
+    text-align: justify;
+    margin-right:3%; 
+    color: #fff;
+}
+
+.hero2{
+    background:url(../img/pexels-cottonbro-studio-3944405.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    height: 500px;
+}
+footer{
+    background:#101010e2;
+   max-width: 100%;
+   margin-top:8%;
+   height: 200px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center;
+   text-align: center;
+}
+
+.foote{
+    color: #5e5c5c8c;
+}
+
+.sociais a img{
+    width: 25px;
+    margin-top: 10%;
+    cursor: pointer;
+  
+}
+.Servicos{
+    background-color: #9b9595e2;
+}
+.code{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    
+   
+}
+@media(max-width: 540px) and (max-width:1024px){
+  
+   header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+   
+   }
+   .hero{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    height:250pxpx; 
+   }
+   .logo{
+    margin-bottom: 3%;
+   }
+   .flex img{
+    width: 100px;
+    margin-left:20px;
+    border-radius:10px; 
+   }
+   .flex video{
+    width:100px;
+    display: flex;
+    flex-direction: column;   
+}
+   .patrocinio{
+    display: flex;
+    flex-direction: column;
+    padding:5px; 
+    margin-top:5%;
+    margin-right:5%;
+    margin-left:5%;
+    align-items: center;
+ }
+    .ribeiros{
+       
+        flex-direction: column;
+
+    }
+    .cont{
+    display: none;
+    }
+
+}
